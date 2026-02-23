@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    background-size: 1920px 1080px;
+    background-image: url(vecteezy_abstract-futuristic-wave-background-illustration_24399235.jpg);
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+}
+
+.username {
+    display: flex;
+    transform: scale(1.5);
+    justify-content: center;
+}
+
+.password {
+    display: flex;
+    transform: scale(1.5);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.log-in {
+    display: flex;
+    transform: scale(1.5);
+    justify-content: center;
+}
+
+.Remember-me {
+    display: flex;
+    color: black;
+    transform: scale(1.5);
+    justify-content: center;
+}
+
+.forgot {
+    transform: scale(1.2);
+    color: black;
+}
+
+.register {
+    transform: scale(1.2);
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
